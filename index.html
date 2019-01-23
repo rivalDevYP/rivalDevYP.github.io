@@ -1,11 +1,135 @@
-<!DOCTYPE html>
-<html>
-<body>
+<!DOCTYPE.html>
+<html>                  
+   <head>
+        <style type="text/css">
+        .weddingFoodSelectButton {
+            background-color: rgba(155, 114, 0, 0.726);
+            color: rgb(0, 0, 0);
+            padding: 16px;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+        }
 
-<h1>My First Heading</h1>
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
 
-<p>My first paragraph.</p>
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
 
-</body>
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+        .dropdown-content a:hover {background-color: #f1f1f1}
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .dropdown:hover .weddingFoodSelectButton {
+            background-color: #3e8e41;
+        }
+                    body {
+                        font-family: "Encode Sans Condensed Thin";
+                        color: black;
+                        background-color:rgb(255, 235, 169);
+                        
+
+                    }
+                    .button {
+                        background-color: #4CAF50; /* Green */
+                        border: none;
+                        color: white;
+                        padding: 15px 32px;
+                        text-align: center;
+                        text-decoration: none;
+                        display: inline-block;
+                        font-size: 16px;
+                        margin: 4px 2px;
+                        cursor: pointer;
+                    }
+                    
+                    .submitButton {
+                        background-color: rgba(31, 85, 0, 0.521); 
+                        color: black; 
+                        border: 2px solid rgb(21, 44, 0);
+                    }
+                    </style>
+
+
+                <div>
+                        <img alt="banner" src="ol.png"style="width:191.25px;height:101.25px;">
+                    </div>
+                    <hr>    
+            <h2 style="font-weight:normal; text-align: center; color: rgba(0, 34, 54, 0.87); font-size: 32px;">{Oliver James Queen <strong><i>weds</i></strong> Laurel Dinah Lance}<br/><br/></h2>
+        </head>
+        <body style="font-weight:normal; text-align: center; color: rgb(55, 14, 63); font-size: 18px;"><i>The Queen & Lance families cordially invite you to attend Oliver and Laurel's Wedding Ceremony <br/><br/><strong>(at) The Golden Hills Chapel, 1281 Excel Hill Blvd, Mountain View, California, 94035 <br/>(on) Saturday, December 16th, 2017 at 9:45AM<br/><br/></strong></i></body>
+        <body style="font-weight:normal;text-align:center;color:black;font-size:14px;"><strong><br/><br/>(Please fill out the questionnaire below to confirm RSVP)<br/><br/><br/></strong></body>
+        <pi>Will you be attending the ceremony? </pi>
+        <select>
+            <option value="Yes">Yes</option>
+            <option value="No">No</option>
+        </select>
+        <p>If yes, please continue to fill out the lunch menu questionnaire below... </p>
+    </br></br>
+        <div class="dropdown">
+            <button class="weddingFoodSelectButton">Select an Appetizer</button>
+                <div class="dropdown-content">
+                    <a href="#">Seasonal Greens with Fresh French Baguette Slices</a>
+                    <a href="#">Aged Cheeses with Fresh Fruit</a>
+                    <a href="#">Artichoke, Tomato, and Spinach Pizza</a>
+                </div>
+        </div>
+
+        <div class="dropdown">
+            <button class="weddingFoodSelectButton">Select an Entree</button>
+                <div class="dropdown-content">
+                <a href="#">Vegetarian Lasagna</a>
+                <a href="#">Chicken Cordon Bleu</a>
+                <a href="#">Crushed Sesame Seed covered seared Tuna Steak</a>
+                </div>
+        </div>
+
+        <div class="dropdown">
+            <button class="weddingFoodSelectButton">Select a Side</button>
+                <div class="dropdown-content">
+                    <a href="#">Cashew Ricotta & Grilled Asparagus</a>
+                    <a href="#">Green Bean Almondine</a>
+                    <a href="#">Butter Orange Vinaigrette</a>
+                </div>
+        </div>
+
+        <div class="dropdown">
+            <button class="weddingFoodSelectButton">Select a Dessert</button>
+                <div class="dropdown-content">
+                    <a href="#">Vanilla Ice Cream</a>
+                    <a href="#">Creme Brulee</a>
+                    <a href="#">Layered Coconut Creme Pie</a>
+                </div>
+        </div>
+        <div class="dropdown">
+            <button class="weddingFoodSelectButton">Select a Wine</button>
+                <div class="dropdown-content">
+                    <a href="#">Red Wine</a>
+                    <a href="#">White Wine</a>
+                    <a href="#">Other Wine</a>
+                </div>
+        </div>
+        <br/><br/><br/><br/>
+        <button class="button submitButton">Submit</button>
+        <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+        
+
 </html>
-
